@@ -19,8 +19,8 @@ export default function Aluno({nome, nota = 0}) {
             onChange={handleNotaIndividual}
             type="number"
             step="0.1"
-            min={0}
-            max={10}/>
+            min="0"
+            max="10"/>
         </div>
     )
 }
