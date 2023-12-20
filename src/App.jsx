@@ -1,13 +1,11 @@
 import Hello from "./Hello"
+import Notes from "./Notes"
 
 function App() {
 
   return (
     <>
-      <Hello/>
-      <Hello name="Vinícius"/>
-      <Hello/>
-      <Hello/>
+      <Notes/>
     </>
   )
 }
